@@ -10,7 +10,7 @@ const collectEmployees = function() {
     const salary = parseFloat(salaryInput);
 
     if (isNaN(salary)) {
-      alert("Salary must be a number. Defaulting to $0.");
+      alert("Salary must be a number. Defaulting to $0.00");
     }
 
     const employee = {
@@ -42,7 +42,7 @@ const displayAverageSalary = function(employeesArray) {
 const getRandomEmployee = function(employeesArray) {
   const randomIndex = Math.floor(Math.random() * employeesArray.length);
   const randomEmployee = employeesArray[randomIndex];
-  console.log(`Random Employee: ${randomEmployee.firstName} ${randomEmployee.lastName}`);
+  console.log(`Congratulations ${randomEmployee.firstName} ${randomEmployee.lastName} is our our random lottery winner!!`);
 }
 
 /*
@@ -89,7 +89,6 @@ const displayEmployees = function(employeesArray) {
   }
 }
 
-// Event listener for adding employees
 addEmployeesBtn.addEventListener('click', function() {
   const newEmployees = collectEmployees();
   displayEmployees(newEmployees);
