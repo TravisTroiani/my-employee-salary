@@ -11,7 +11,7 @@ Clone the repository: git clone SSH Key: "git@github.com:TravisTroiani/my-employ
 Usage
 Adding multiple employee's salaries and calculating the average salary. A random selector for employees existis in the console logs.
 
-Screenshots
+Screenshot
 https://github.com/TravisTroiani/my-employee-salary/blob/main/employeesalarypage.png
 
 Credits
