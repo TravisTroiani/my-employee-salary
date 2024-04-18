@@ -11,8 +11,16 @@ const firstName = prompt("Enter employee's first name:");
 const lastName = prompt("Enter employee's last name:");
 const salary = parseFloat(prompt("Enter employee's salary:"));
 
+const employee = {
+  firstName: firstName,
+  lastName: lastName,
+  salary: salary
+};
+employeeArray.push(employee);
 
+return employeeArray;
 // Display the average salary
+
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
 }
