@@ -12,7 +12,7 @@ Usage
 Adding multiple employee's salaries and calculating the average salary. A random selector for employees existis in the console logs.
 
 Screenshots
-
+/Users/travis/Desktop/my-employee-salary/employeesalarypage.png
 
 Credits
 Project accredited to University of California Irvine Bootcamp
