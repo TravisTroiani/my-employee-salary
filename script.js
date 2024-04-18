@@ -1,4 +1,4 @@
-// Function to collect employee data
+// employee data
 const collectEmployees = function() {
   const employeeArray = [];
 
@@ -27,7 +27,7 @@ const collectEmployees = function() {
   return employeeArray;
 }
 
-// Function to display average salary
+// Average salary
 const displayAverageSalary = function(employeesArray) {
   let totalSalary = 0;
   for (let i = 0; i < employeesArray.length; i++) {
@@ -38,11 +38,11 @@ const displayAverageSalary = function(employeesArray) {
   console.log(`Number of Employees: ${employeesArray.length}`);
 }
 
-// Function to get a random employee
+// Random employee
 const getRandomEmployee = function(employeesArray) {
   const randomIndex = Math.floor(Math.random() * employeesArray.length);
   const randomEmployee = employeesArray[randomIndex];
-  console.log(`Congratulations ${randomEmployee.firstName} ${randomEmployee.lastName} is our our random lottery winner!!`);
+  console.log(`Congratulations ${randomEmployee.firstName} ${randomEmployee.lastName} is our random lottery winner!!`);
 }
 
 /*
@@ -51,7 +51,7 @@ const getRandomEmployee = function(employeesArray) {
   Do not modify any of the code below this line:
 */
 
-// Get a reference to the #add-employees-btn element
+
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Display employee data in an HTML table
