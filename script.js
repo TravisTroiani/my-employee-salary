@@ -22,6 +22,7 @@ return employeeArray;
 // Display the average salary
 
 const displayAverageSalary = function(employeesArray) {
+  let totalSalary = 0;
   // TODO: Calculate and display the average salary
 }
 
